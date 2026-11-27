@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/gunung",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Gunung\\": "app/",
+            "Modules\\Gunung\\Database\\Factories\\": "database/factories/",
+            "Modules\\Gunung\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Gunung\\Tests\\": "tests/"
+        }
+    }
+}

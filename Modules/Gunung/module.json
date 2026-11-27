@@ -1,0 +1,11 @@
+{
+    "name": "Gunung",
+    "alias": "gunung",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gunung\\Providers\\GunungServiceProvider"
+    ],
+    "files": []
+}
